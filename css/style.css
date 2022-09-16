@@ -1,0 +1,252 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    vertical-align: top;
+}
+
+html,
+body {
+    height: 100%;
+    line-height: 1;
+    color: #616161;
+    background-image: url(../img/1614840877_92-p-fon-kazino-116.jpg);
+    background-size: cover no-repeat;
+}
+
+.num {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 700;
+    color: white;
+    width: 80px;
+    height: 30px;
+    border: 2px solid green;
+    border-radius: 10px;
+    margin: 100px auto 10px;
+}
+
+.wrapper {
+    min-height: 100%;
+    overflow: hidden;
+
+}
+
+.table {
+    display: flex;
+    flex-direction: column;
+    width: 1400px;
+    height: 600px;
+    border: 10px solid white;
+    border-radius: 40px;
+    background-color: #1f176b;
+    margin: auto;
+    text-align: center;
+    box-shadow: 3px 1px 8px 9px #58e1ec78;
+}
+
+.deal,
+.pleyer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.cardPlace:not(:last-child) {
+    margin-right: 10px;
+}
+
+.cardDecks {
+    background: center/ cover no-repeat url(../img/card.png);
+}
+
+.deal {
+    margin-top: 10px;
+}
+
+.pleyer {
+    margin-bottom: 10px;
+}
+
+.dealCard {
+    background: center/ cover no-repeat;
+
+}
+
+.cardPlace {
+    width: 125px;
+    height: 188px;
+    border: 2px solid red;
+    border-radius: 5px;
+    background-repeat: no-repeat;
+    box-shadow: -2px 0px 16px 2px white;
+}
+
+.cardButtons {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+.cardButtons .cardPlace {
+    margin-right: 0px;
+}
+
+.count {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.countDeal,
+.countPleyer {
+    opacity: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: 800;
+    color: white;
+    width: 40px;
+    height: 30px;
+    border: 2px solid green;
+    border-radius: 12px;
+}
+
+.blackJack {
+    opacity: 0;
+    font-size: 40px;
+    color: red;
+}
+
+.start {
+    width: 160px;
+    height: 40px;
+}
+
+.button {
+    background-color: #EC5863;
+    color: #FCFDFE;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    transition: all 0.3s ease 0s;
+}
+
+.hit,
+.repeat,
+.stand {
+    display: none;
+    width: 160px;
+    height: 40px;
+    transition: all 0.3s ease 0s;
+}
+
+.repeat:hover {
+    background-color: #0d5224;
+}
+
+.stand:hover {
+    background-color: #0d5224;
+}
+
+.hit:hover {
+    background-color: #852228;
+}
+
+.start:hover {
+    background-color: #852228;
+}
+
+.button:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.repeat,
+.stand {
+    background-color: #117e35;
+}
+
+.fishka {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.pleac {
+    position: absolute;
+    top: -30px;
+    left: 280px;
+    font-size: 44px;
+    font-weight: 600;
+    color: white;
+    width: 150px;
+    height: 44px;
+    background: center/cover no-repeat;
+    z-index: 50;
+}
+
+.mix {
+    position: absolute;
+    left: 400px;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background: center/cover no-repeat;
+    z-index: 10;
+    /* box-shadow: -1px 0px 6px 0px white; */
+}
+
+.fish {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    transition: all 0.3s ease 0s;
+    margin-top: 15px;
+}
+
+.fish:not(:last-child) {
+    margin-right: 20px;
+}
+
+.fish:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+.five {
+    background: center/cover no-repeat url(../img/five.png);
+}
+
+.ten {
+    background: center/cover no-repeat url(../img/ten.png);
+}
+
+.twentyFive {
+    background: center/cover no-repeat url(../img/twentyFive.jpg);
+}
+
+.fifty {
+    background: center/cover no-repeat url(../img/fifty.jpg);
+}
+
+.hundred {
+    background: center/cover no-repeat url(../img/hundred.jpg);
+}
